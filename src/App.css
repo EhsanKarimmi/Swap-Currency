@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;700&display=swap");
+
+* {
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    background: -webkit-linear-gradient(-90deg, #2e222e 0, #212429 100%);
+    background: -moz-linear-gradient(180deg, #2e222e 0, #212429 100%);
+    background: linear-gradient(180deg, #2e222e 0, #212429 100%);
+}
+
+.swapContainer {
+    border-radius: 20px;
+    background-color: #191b1f;
+    box-shadow: 1px 1px 8px 2px #22242a;
+    color: white;
+}
+
+.inputContainer {
+    background-color: #212429;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.inputContainer input {
+    background-color: #212429;
+    border: none;
+    width: 70%;
+    font-weight: normal;
+    font-size: 28px;
+    color: white;
+}
+
+.inputContainer input:focus {
+    outline: none;
+}
+
+.arrowIcon {
+    position: absolute;
+    top: 42.9%;
+    left: 48.5%;
+    color: rgb(182, 182, 182);
+    border: 5px solid #191b1f;
+    border-radius: 100%;
+}
+
+.symbolBox,
+.balance {
+    margin-left: auto;
+    margin-right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    text-align: start;
+}
+
+.swapBtn {
+    width: 100%;
+    background-color: #172a42;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.swapBtn:hover {
+    background-color: #2172e5;
+    box-shadow: 1px 1px 8px 2px #2172e5;
+}
+
+.setting:hover {
+    cursor: pointer;
+}
+
+.note {
+    font-size: 15px;
+    margin-left: 10px;
+    padding: 0;
+    font-weight: bold;
+    font-weight: light;
+    color: #b6b6b6;
+}
