@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Swap-Currency/static/css/main.539408a4.css",
+    "main.js": "/Swap-Currency/static/js/main.f2e603d9.js",
+    "index.html": "/Swap-Currency/index.html",
+    "main.539408a4.css.map": "/Swap-Currency/static/css/main.539408a4.css.map",
+    "main.f2e603d9.js.map": "/Swap-Currency/static/js/main.f2e603d9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.539408a4.css",
+    "static/js/main.f2e603d9.js"
+  ]
+}
